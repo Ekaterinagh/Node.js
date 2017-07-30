@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1=title
+  nav.topmenu
+  a(href='index') Mainpage 
+  a(href='news') News 
+  a(href='services') Services 
+  a(href='contacts') Contacts 
+  div.mainblock
+  p Welcome to #{title}
+  div(class="tatto-card", id="tatto")
+  h1(class="tatto-title") Tatto
+  img(src="/images/tatoo1.png", class="tatto-poster")
+  ul(class="genre-list")
+    li Tatto
+    li Piercing
+  div.copyright &copy; All rights reserved. Ivanova 2017
